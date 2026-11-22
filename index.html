@@ -179,8 +179,8 @@ var KONTAKT = {
   name:    "TSV Simmozheim 1906 e.V.",
   strasse: "Ostelsheimer Str. 40",
   ort:     "75397 Simmozheim",
-  telefon: "",
-  email:   ""
+  telefon: "07033 4739939",
+  email:   "Geschaeftsstelle@tsv-simmozheim.de"
 };
 
 // Seiten auf der Homepage (Pfade)
@@ -197,7 +197,6 @@ var SEITEN = {
 // Je Meldung: Titel, Pfad der Seite, optional Datum.
 var NEWS = [
   { titel: "Kinder- und Jugendsport beim TSV Simmozheim – ohne Ehrenamt geht es nicht", pfad: "/NEWSausdenAbteilungen/NewsausdenAbteilungen/?#5431" },
-  { titel: "FamilyDance in den Ferien",                                                 pfad: "/LineDance/LineDance/LetsLineNews/?#5413" },
   { titel: "Spendenkonto",                                                              pfad: "/Spendenkonto/Spende/?#5392" },
   { titel: "Datenschutzordnung TSV Simmozheim 1906 e.V.",                               pfad: "/Datenschutz/Datenschutz/?#4967" }
   // Beispiel mit Datum:  { titel: "Neue Kurse", pfad: "/…/", datum: "12. November 2026" },
@@ -222,6 +221,12 @@ var ABTEILUNGEN = [
     name: "Turnen",
     kurz: "Eltern-Kind-Turnen, Kinderleichtathletik, Gymnastik, Fitness & mehr.",
     pfad: "/Turnen/AllgemeineInfos/InfosausderAbteilung/",
+     { titel: "Allgemeines", eintraege: [
+        g("Infos aus der Abteilung",   "/Turnen/AllgemeineInfos/InfosausderAbteilung/"),
+        g("Vereinskleidung",           "/Turnen/AllgemeineInfos/Vereinskleidung/"),
+        g("Übungsleiterinfos",         "/Turnen/AllgemeineInfos/Uebungsleiterinfos/"),
+        g("Login easy",                "/Turnen/AllgemeineInfos/Logineasy/")
+      ]},
     gruppen: [
       { titel: "Kinder und Jugendliche", eintraege: [
         g("Turnerjugend – Übersicht",  "/Turnen/KinderundJugendliche/TurnerjugendUebersicht/"),
@@ -247,12 +252,7 @@ var ABTEILUNGEN = [
         g("Mountainbike",              "/Radsport/MTB/AllgemeineInfos/"),
         g("Indoor Cycling",            "/Radsport/IndoorCycling/TeamIndoorCycling/")
       ]},
-      { titel: "Allgemeines", eintraege: [
-        g("Infos aus der Abteilung",   "/Turnen/AllgemeineInfos/InfosausderAbteilung/"),
-        g("Vereinskleidung",           "/Turnen/AllgemeineInfos/Vereinskleidung/"),
-        g("Übungsleiterinfos",         "/Turnen/AllgemeineInfos/Uebungsleiterinfos/"),
-        g("Login easy",                "/Turnen/AllgemeineInfos/Logineasy/")
-      ]},
+     
       { titel: "Archiv", eintraege: [
         g("Archiv Turnen",             "/Turnen/Archive/ArchivTurnen/"),
         g("Archiv Volleyball",         "/Turnen/Archive/ArchivVolleyball/"),
